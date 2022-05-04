@@ -1,0 +1,10 @@
+sys-apps/systemd gnuefi
+# required by net-misc/networkmanager-1.36.4::gentoo[-iwd,wifi]
+# required by networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r1 dbus
+# required by media-libs/mesa-22.1.0_rc3::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[opengl]
+# required by dev-python/pygobject-3.42.0::gentoo[cairo]
+# required by net-misc/networkmanager-1.36.4::gentoo[introspection,-test]
+# required by networkmanager (argument)
+>=media-libs/libglvnd-1.4.0 X

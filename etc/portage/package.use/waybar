@@ -1,0 +1,162 @@
+gui-apps/waybar network sndio tray wifi pulseaudio popups udev mpd
+# required by media-sound/pulseaudio-15.99.1-r1::gentoo[daemon]
+# required by media-sound/pulseaudio (argument)
+>=media-sound/pulseaudio-daemon-15.99.1-r2 native-headset jack
+# required by dev-python/setuptools_scm-6.4.2::gentoo[-test]
+>=dev-python/setuptools-62.1.0 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/appdirs-1.4.4-r2 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-3.7.0-r2 python_targets_python3_9
+# required by dev-python/nspektr-0.3.0::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-8.12.0-r1 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/nspektr-0.3.0 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/ordered-set-4.1.0 python_targets_python3_9
+# required by dev-python/nspektr-0.3.0::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-21.3-r2 python_targets_python3_9
+# required by dev-python/nspektr-0.3.0::gentoo[python_targets_python3_9,-python_targets_pypy3,-python_targets_python3_8]
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/importlib_metadata-4.11.3 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/setuptools_scm-6.4.2::gentoo[-test]
+>=dev-python/certifi-3021.3.16-r1 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools_scm-6.4.2 python_targets_python3_9
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.37.1-r1 python_targets_python3_9
+# required by dev-python/importlib_metadata-4.11.3::gentoo
+# required by dev-python/nspektr-0.3.0::gentoo[python_targets_python3_9,-python_targets_pypy3,-python_targets_python3_8]
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-4 python_targets_python3_9
+# required by dev-python/gpep517-4::gentoo
+# required by dev-python/appdirs-1.4.4-r2::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.5.1 python_targets_python3_9
+# required by dev-python/gpep517-4::gentoo
+# required by dev-python/appdirs-1.4.4-r2::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/tomli-2.0.1 python_targets_python3_9
+# required by dev-python/wheel-0.37.1-r1::gentoo
+# required by dev-python/setuptools_scm-6.4.2::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit_core-3.7.1 python_targets_python3_9
+# required by dev-python/importlib_metadata-4.11.3::gentoo
+# required by dev-python/nspektr-0.3.0::gentoo[python_targets_python3_9,-python_targets_pypy3,-python_targets_python3_8]
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/zipp-3.8.0 python_targets_python3_9
+# required by dev-python/packaging-21.3-r2::gentoo
+# required by dev-python/nspektr-0.3.0::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/pyparsing-3.0.8 python_targets_python3_9
+# required by dev-python/nspektr-0.3.0::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-4.1.1-r2 python_targets_python3_9
+# required by dev-python/nspektr-0.3.0::gentoo
+# required by dev-python/setuptools-62.1.0::gentoo
+# required by dev-python/certifi-3021.3.16-r1::gentoo
+# required by dev-python/requests-2.27.1::gentoo
+# required by app-portage/gemato-16.2::gentoo[gpg]
+# required by sys-apps/portage-3.0.30-r5::gentoo[-build,rsync-verify]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-3.5.0-r2 python_targets_python3_9
