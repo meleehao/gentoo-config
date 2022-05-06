@@ -1,0 +1,4 @@
+media-video/mpv X alsa cli egl iconv pulseaudio vaapo vulkan wayland xv zlib lua opengl uchardet drm jpeg libmpv openal
+cat > /etc/portage/package.use/mpv << x
+media-video/mpv X alsa cli egl iconv pulseaudio vaapo vulkan wayland xv zlib lua opengl uchardet drm jpeg libmpv openal
+
