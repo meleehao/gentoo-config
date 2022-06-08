@@ -1,0 +1,4 @@
+sys-apps/systemd gnuefi
+# required by app-shells/fish-3.4.1::gentoo
+# required by fish (argument)
+>=dev-libs/libpcre2-10.40 pcre32

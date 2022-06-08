@@ -1,0 +1,37 @@
+app-editors/vim -X python terminal vim-pager tcl gpm cscope perl
+# required by net-misc/networkmanager-1.38.0::gentoo[wifi,-iwd]
+# required by networkmanager (argument)
+>=net-wireless/wpa_supplicant-2.10-r1 dbus
+# required by x11-libs/cairo-1.16.0-r5::gentoo[opengl]
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by net-misc/networkmanager-1.38.0::gentoo[introspection,-test]
+# required by networkmanager (argument)
+>=media-libs/mesa-22.1.1 X
+# required by media-libs/mesa-22.1.1::gentoo
+# required by x11-libs/cairo-1.16.0-r5::gentoo[opengl]
+# required by dev-python/pygobject-3.42.1::gentoo[cairo]
+# required by net-misc/networkmanager-1.38.0::gentoo[introspection,-test]
+# required by networkmanager (argument)
+>=media-libs/libglvnd-1.4.0 X
+# required by dev-vcs/git-2.35.1::gentoo[subversion,perl]
+# required by dev-vcs/git (argument)
+>=dev-vcs/subversion-1.14.1 perl
+# required by gui-wm/sway-1.7::gentoo[wallpapers]
+# required by sway (argument)
+>=x11-libs/gdk-pixbuf-2.42.8 jpeg
+# required by sys-auth/polkit-0.120_p20220509::gentoo[systemd]
+>=sys-apps/systemd-251.2 policykit
+# required by gnome-base/gnome-keyring-42.1::gentoo
+# required by virtual/secret-service-0::gentoo
+# required by app-crypt/libsecret-0.20.5-r3::gentoo
+# required by app-editors/vscode-1.67.2::gentoo
+# required by vscode (argument)
+>=app-crypt/gcr-3.41.0 gtk
+# required by www-client/firefox-bin-101.0::gentoo
+# required by www-client/firefox-bin (argument)
+>=x11-libs/cairo-1.16.0-r5 X
+# required by net-print/cups-filters-1.28.15::gentoo[postscript]
+# required by net-print/cups-2.4.2-r1::gentoo
+# required by app-editors/vscodium-1.67.2::gentoo
+# required by app-editors/vscodium (argument)
+>=app-text/ghostscript-gpl-9.56.1 cups
