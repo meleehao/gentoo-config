@@ -1,6 +1,6 @@
 window:
     decorations: "none"
-    background_opacity: 0.8
+    background_opacity: 0.95
 live_config_reload: true
 
 font:
@@ -16,34 +16,37 @@ font:
 
   italic:
     family: Sarasa Term SC Semibold
+
+
+
+# Colors (Dracula)
 colors:
+  # Default colors
   primary:
-    foreground: '0xeeeeec'
-
+    background: '0x282a36'
+    foreground: '0xf8f8f2'
+ 
+  # Normal colors
   normal:
-     black:   '0x2e3436'
-     red:     '0xcc0000'
-     green:   '0x73d216'
-     yellow:  '0xedd400'
-     blue:    '0x3465a4'
-     magenta: '0x75507b'
-     cyan:    '0x06989a'
-     white:   '0xd3d7cf'
-
+    black:   '0x000000'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xbd93f9'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xbbbbbb'
+ 
+  # Bright colors
   bright:
-     black:   '0x2e3436'
-     red:     '0xef2929'
-     green:   '0x8ae234'
-     yellow:  '0xfce94f'
-     blue:    '0x729fcf'
-     magenta: '0xad7fa8'
-     cyan:    '0x34e2e2'
-     white:   '0xeeeeec'
-
-
-
-
-
+    black:   '0x555555'
+    red:     '0xff5555'
+    green:   '0x50fa7b'
+    yellow:  '0xf1fa8c'
+    blue:    '0xcaa9fa'
+    magenta: '0xff79c6'
+    cyan:    '0x8be9fd'
+    white:   '0xffffff'
 
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
 

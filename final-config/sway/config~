@@ -15,12 +15,13 @@ set $up k
 set $right l
 # Your preferred terminal emulator
 set $term kitty
+set $menu wofi
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu wofi --show run | dmenu | xargs swaymsg exec --
-
+set $menu wofi  --show run | dmenu | xargs swaymsg exec --
+#set $menu wofi  
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
@@ -98,7 +99,7 @@ output eDP-1  max_render_time off
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+d exec wofi
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -227,8 +228,8 @@ bindsym $mod+r mode "resize"
 #
 #
 #sway configure
-gaps inner 2
-gaps outer 0
+gaps inner 1
+gaps outer 4
 smart_gaps on
 default_border  none
 titlebar_border_thickness 0
@@ -256,12 +257,12 @@ exec_always /home/loki/bin/import-gsettings \
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-    position top
+    #position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     #status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
-    swaybar_command swaybar
+    swaybar_command waybar
 
     #colors {
     #    statusline #ffffff
@@ -281,10 +282,10 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 #
 include /etc/sway/config.d/*
-exec pulseaudio --start
+#exec pulseaudio --start
 
 # Screen capture
-exec gentoo-pipewire-launcher
+#exec gentoo-pipewire-launcher
 
 
 
