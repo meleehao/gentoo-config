@@ -1,0 +1,29 @@
+x11-libs/libva drm opengl wayland X
+# required by media-libs/mesa-22.1.7::gentoo
+# required by mesa (argument)
+>=media-libs/libglvnd-1.4.0 X
+# required by gui-wm/sway-1.7-r2::gentoo[wallpapers]
+# required by sway (argument)
+>=gui-apps/swaybg-1.1.1 gdk-pixbuf
+# required by x11-misc/notification-daemon-3.20.0-r1::gentoo
+# required by virtual/notification-daemon-0::gentoo[-gnome,-kde]
+# required by x11-libs/libnotify-0.8.1::gentoo
+# required by gui-wm/sway-1.7-r2::gentoo[grimshot]
+# required by sway (argument)
+>=x11-libs/gtk+-3.24.34 X
+# required by x11-libs/gtk+-3.24.34::gentoo
+# required by x11-themes/adwaita-icon-theme-42.0_p2::gentoo
+>=media-libs/libepoxy-1.5.10-r1 X
+# required by x11-libs/gtk+-3.24.34::gentoo
+# required by x11-themes/adwaita-icon-theme-42.0_p2::gentoo
+>=x11-libs/cairo-1.16.0-r5 X
+# required by dev-libs/libappindicator-12.10.1_p20200706::gentoo
+# required by gui-apps/waybar-0.9.13::gentoo[tray]
+# required by gui-apps/waybar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by media-sound/pulseaudio-daemon-16.1::gentoo[alsa,alsa-plugin]
+# required by media-libs/libpulse-16.1::gentoo
+# required by media-sound/pulseaudio-16.1::gentoo
+# required by gui-apps/waybar-0.9.13::gentoo[pulseaudio]
+# required by gui-apps/waybar (argument)
+>=media-plugins/alsa-plugins-1.2.7.1 pulseaudio
