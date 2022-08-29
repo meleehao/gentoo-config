@@ -1,0 +1,7 @@
+x11-misc/xdg-utils dbus
+# required by x11-misc/xdg-utils-1.1.3_p20210805::gentoo
+# required by x11-misc/xdg-utils (argument)
+>=app-text/xmlto-0.0.28-r8 text
+# required by app-shells/zsh-theme-powerlevel10k-1.16.1::gentoo-zh
+# required by app-shells/zsh-theme-powerlevel10k (argument)
+>=app-shells/gitstatus-1.5.4 zsh-completion
